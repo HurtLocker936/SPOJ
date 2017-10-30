@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int tt,ans=0;
+    scanf("%d",&tt);
+    while(tt--)
+    {
+        int n;
+        scanf("%d",&n);
+        ans=ans^n;
+    }
+    printf("%d\n",ans);
+    return 0;
+}
